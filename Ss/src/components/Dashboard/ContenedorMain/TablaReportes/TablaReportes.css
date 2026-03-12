@@ -1,0 +1,113 @@
+.tablaContenedorPrincipal {
+  background-color: var(--msp-blanco);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  box-shadow: var(--shadow-soft);
+}
+
+.tablaHeaderFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tablaHeaderFlex h4 {
+  margin: 0;
+  color: var(--msp-azul-marino);
+  font-size: 1.1rem;
+}
+
+.tablaFiltros {
+  display: flex;
+  gap: 10px;
+}
+
+.inputBusqueda, .selectFiltro {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.inputBusqueda:focus, .selectFiltro:focus {
+  border-color: var(--msp-cyan);
+}
+
+.tablaReportesCss {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.tablaReportesCss thead tr {
+  background-color: var(--msp-azul-marino);
+  color: var(--msp-blanco);
+  text-align: left;
+}
+
+.tablaReportesCss th {
+  padding: 12px 15px;
+  font-weight: 600;
+}
+
+.tablaReportesCss td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.tablaReportesCss tbody tr:nth-of-type(even) {
+  background-color: #f9f9fb;
+}
+
+.tablaReportesCss tbody tr:hover {
+  background-color: #f1f4f9;
+}
+
+.badgeLinea {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.linea1 { background-color: #e8f5e9; color: #2e7d32; }
+.linea3 { background-color: #fff3e0; color: #f57c00; }
+.linea4 { background-color: #e3f2fd; color: #1976d2; }
+
+.statusBadge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.statusBadge.pendiente { background-color: #fef9e7; color: #9a7d0a; }
+.statusBadge.aprobado { background-color: #d4efdf; color: #1d8348; }
+.statusBadge.revisión { background-color: #ebf5fb; color: #2874a6; }
+
+.celdaAcciones {
+  display: flex;
+  gap: 5px;
+}
+
+.btnCrud {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.btnVer:hover { background-color: #e8f5ff; }
+.btnEditar:hover { background-color: #fef9e7; }
+.btnEliminar:hover { background-color: #fdf2f2; }
+
+.tablaFooter {
+  margin-top: 15px;
+  font-size: 0.8rem;
+  color: var(--msp-text-light);
+  text-align: right;
+}

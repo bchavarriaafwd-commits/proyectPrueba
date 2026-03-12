@@ -1,0 +1,35 @@
+.grafico-card {
+  background-color: var(--msp-blanco);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  box-shadow: var(--shadow-soft);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.grafico-header {
+  margin-bottom: 20px;
+}
+
+.grafico-header h4 {
+  margin: 0;
+  color: var(--msp-azul-marino);
+  font-size: 1.1rem;
+}
+
+.region-tag {
+  font-size: 0.75rem;
+  color: var(--msp-cyan);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.grafico-footer {
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px solid #f0f0f0;
+  font-size: 0.75rem;
+  color: var(--msp-text-light);
+  text-align: center;
+}

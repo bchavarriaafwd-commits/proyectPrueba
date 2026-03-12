@@ -1,0 +1,81 @@
+.contenedor-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.cardItem {
+  background-color: var(--msp-blanco);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: var(--shadow-soft);
+  border-left: 4px solid var(--msp-cyan);
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.cardItem:hover {
+  transform: translateY(-3px);
+}
+
+.cardIcono {
+  font-size: 2rem;
+  background-color: #f0f8ff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.cardDatos {
+  flex-grow: 1;
+}
+
+.cardTitulo {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--msp-text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.cardNumero {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin: 5px 0;
+  color: var(--msp-azul-marino);
+}
+
+.cardMeta {
+  font-size: 0.75rem;
+  color: var(--msp-text-light);
+  margin: 0;
+}
+
+.cardBadge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.65rem;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.badgeAzul { background-color: #e3f2fd; color: #1976d2; }
+.badgeVerde { background-color: #e8f5e9; color: #2e7d32; }
+.badgeNaranja { background-color: #fff3e0; color: #f57c00; }
+.badgeRojo { background-color: #ffebee; color: #c62828; }
+
+/* Variaciones de borde por importancia si se desea */
+.cardInversion { border-left-color: var(--msp-cyan); }
+.cardPrevencion { border-left-color: #28a745; }
+.cardCalle { border-left-color: #ffc107; }
+.cardFlujo { border-left-color: #dc3545; }

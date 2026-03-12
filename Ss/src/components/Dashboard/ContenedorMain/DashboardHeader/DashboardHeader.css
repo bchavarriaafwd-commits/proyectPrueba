@@ -1,0 +1,95 @@
+.contenedorHeader {
+  background-color: var(--msp-blanco);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 90;
+}
+
+.tituloPagina {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--msp-azul-marino);
+  margin: 0;
+}
+
+.subtituloPagina {
+  font-size: 0.85rem;
+  color: var(--msp-text-light);
+  margin: 3px 0 0;
+}
+
+.usuarioInfoDerecha {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.fechaContenedor {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: var(--msp-text-light);
+  background-color: #f8f9fa;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.notificaciones {
+  position: relative;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: var(--msp-text-light);
+}
+
+.puntoAlerta {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #dc3545;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.perfilResumen {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.textoPerfil {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.nombreUsuario {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.rolEtiqueta {
+  font-size: 0.7rem;
+  color: var(--msp-cyan);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.avatarCirculo {
+  width: 40px;
+  height: 40px;
+  background-color: var(--msp-azul-marino);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

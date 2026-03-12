@@ -1,0 +1,90 @@
+.calendarioSeccionContenedor {
+  background-color: var(--msp-blanco);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  box-shadow: var(--shadow-soft);
+  height: 100%;
+}
+
+.calendarioHeaderFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.calendarioHeaderFlex h3 {
+  font-size: 1.1rem;
+  color: var(--msp-azul-marino);
+  margin: 0;
+}
+
+.badgeIntervenciones {
+  background-color: #fdf2f2;
+  color: #dc3545;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+/* Customizing react-calendar to match MSP theme */
+.react-calendar {
+  width: 100% !important;
+  border: none !important;
+  font-family: var(--sans) !important;
+}
+
+.react-calendar__navigation button {
+  color: var(--msp-azul-marino);
+  font-weight: bold;
+}
+
+.react-calendar__month-view__weekdays {
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--msp-text-light);
+}
+
+.react-calendar__tile {
+  border-radius: 4px;
+}
+
+.react-calendar__tile--now {
+  background: var(--msp-cyan) !important;
+  color: white !important;
+}
+
+.react-calendar__tile--active {
+  background: var(--msp-azul-marino) !important;
+  color: white !important;
+}
+
+.evento-linea-4 { background: #e3f2fd; color: #1976d2; font-weight: bold; }
+.evento-linea-1 { background: #e8f5e9; color: #2e7d32; font-weight: bold; }
+.evento-hoy { border: 2px solid var(--msp-cyan); }
+
+.proximosEventosLista {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.subtituloCalendario {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: var(--msp-text-light);
+  margin-bottom: 10px;
+}
+
+.eventoItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+}
+
+.puntoAzul { width: 8px; height: 8px; border-radius: 50%; background: #1976d2; }
+.puntoVerde { width: 8px; height: 8px; border-radius: 50%; background: #2e7d32; }

@@ -1,0 +1,153 @@
+.ContenedorSidebar {
+  width: 260px;
+  height: 100vh;
+  background-color: var(--msp-azul-marino);
+  color: var(--msp-blanco);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+  z-index: 100;
+}
+
+.brandSection {
+  padding: 30px 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logoPlaceholder {
+  width: 40px;
+  height: 40px;
+  background-color: var(--msp-cyan);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.TituloProyecto {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--msp-blanco);
+  letter-spacing: 0.5px;
+}
+
+.userProfile {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.avatar {
+  width: 38px;
+  height: 38px;
+  background-color: var(--msp-cyan);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.userName {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.userRole {
+  font-size: 0.75rem;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.navMenu {
+  flex-grow: 1;
+  padding: 20px 0;
+}
+
+.menuLabel {
+  display: block;
+  padding: 0 20px 10px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.5;
+}
+
+.navMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navItem {
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.navItem:hover {
+  background-color: rgba(0, 174, 239, 0.15);
+  color: var(--msp-cyan);
+}
+
+.navItem.active {
+  background-color: var(--msp-cyan);
+  color: var(--msp-azul-marino);
+  font-weight: 600;
+}
+
+.icon {
+  font-size: 1.2rem;
+}
+
+.sidebarFooter {
+  padding: 20px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.statusIndicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  margin-bottom: 15px;
+}
+
+.statusDot {
+  width: 8px;
+  height: 8px;
+  background-color: #28a745;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #28a745;
+}
+
+.logoutBtn {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.3);
+  color: var(--msp-blanco);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.logoutBtn:hover {
+  background-color: rgba(255,255,255,0.1);
+}
