@@ -1,6 +1,5 @@
 import React from 'react';
 import './ContenedorMain.css';
-// Entramos a la carpeta y luego al archivo
 import DashboardHeader from './DashboardHeader/DashboardHeader';
 import CardsIndicadores from './CardsIndicadores/CardsIndicadores';
 import Calendario from './Calendario/Calendario';
